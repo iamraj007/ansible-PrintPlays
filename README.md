@@ -7,6 +7,6 @@ Ansible need to installed host machine to run play book in case on control machi
 
 ```yaml
 # Update play with debug option for your need 
-Ansible have wide options to achive this  
+Ansible have wide ways to achieve this explore and have fun  
 ```
 
