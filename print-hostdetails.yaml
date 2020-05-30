@@ -1,0 +1,23 @@
+---
+- hosts: "*" 
+  tasks:
+  - name: System all users
+    command: cat /etc/passwd
+    register: allusers
+  - debug: var=allusers
+
+  - name: Host DNS Configs
+    command: cat /etc/resolv.conf
+    register: localdns
+  - debug: var=localdns
+
+  - name: Host Entrys
+    command: cat /etc/hosts
+    register: host
+  - debug: var=host
+
+  - name: Where am i, what do i hold?
+    shell: "pwd;ls"
+    register: pwd
+  - debug: var=pwd
+
