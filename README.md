@@ -1,3 +1,5 @@
+# ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/iamraj007/ansible-PrintPlays?style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/iamraj007/ansible-PrintPlays) ![Lines of code](https://img.shields.io/tokei/lines/github/iamraj007/ansible-PrintPlays)
+
 # Ansible print playbooks
 Print Ansible playbook output for user 
 
